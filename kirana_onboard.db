@@ -1,0 +1,12 @@
+CREATE TABLE sellers (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    contact_number TEXT,
+    email TEXT,
+    store_name TEXT,
+    store_address TEXT,
+    gst_number TEXT,
+    alt_phone TEXT,
+    gender TEXT,
+    dob TEXT
+);
